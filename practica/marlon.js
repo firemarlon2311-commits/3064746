@@ -42,7 +42,7 @@ function fndivision(){
 
          let resultadodivision= parseInt(numero1)/ parseInt(numero2);
 
-    console.log("la division de los datos:"
+    console.log("la division de los dato:"
         ,numero1, "/", numero2, "es",resultadodivision);
 }
 
