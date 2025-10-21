@@ -60,5 +60,17 @@ function fndivision(){
 
 
 }
+    function fnmultiplicacion(){
+    let numero1= 0;
+    let numero2= 0;
+    numero1= document.querySelector("#txtnum1").value;
+    numero2= document.querySelector(".txtnum2").value;
+         let resultadomultiplicacion= parseInt(numero1)* parseInt(numero2);
 
-console.log(resultado)
+    console.log("la multiplicacion de los datos:"
+        ,numero1, "*", numero2, "es",resultadomultiplicacion);
+
+
+
+}
+
